@@ -1,0 +1,7 @@
+plugins {
+    id 'anliksim.hello' version '1.0.0'
+    id 'anliksim.goodbye' version '1.0.0'
+    id 'anliksim.greets' version '1.0.0'
+}
+
+tasks.goodbye.dependsOn(tasks.hello)
